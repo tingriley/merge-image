@@ -1,5 +1,7 @@
 # merge-image
   * This program combines tiles into one single image.
+  * Requirement
+      * python and PIL/Pillow
   * Usage
       * Put tiles under 'img' folder
       * Run python merge.py
