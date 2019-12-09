@@ -1,15 +1,15 @@
 import math
 import glob
 import os
-filepath = './snow/'
+filepath = './img/'
 w = 0
 h = 0
 
 from PIL import Image
 
 def find_png():
-	if os.path.isfile(filepath + "merge.png"):
-		os.remove(filepath + "merge.png")
+	if os.path.isfile("merge.png"):
+		os.remove("merge.png")
 	files = [f for f in glob.glob(filepath + "*.png")]	
 	files.sort()
 	return int(math.ceil(math.sqrt(len(files)))), files
@@ -31,4 +31,4 @@ for index, file in enumerate(files):
   '''print('pos {0},{1} size {2},{3}'.format(x, y, w, h))'''
   result.paste(img, (x, y, x + w, y + h))
 
-result.save(filepath + 'merge.png')
+result.save('merge.png')
