@@ -3,5 +3,5 @@
   * usage
       * put tile images under img folder
       * run python merge.py
-      * the output file is merge.png
+      * the output file will be merge.png
   * note: all tile images should have the same dimension.
