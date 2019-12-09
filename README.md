@@ -4,4 +4,4 @@
       * put tile images under img folder
       * run python merge.py
       * the output file is merge.png
-  * note: all tile images should have the same size.
+  * note: all tile images should have the same dimension.
